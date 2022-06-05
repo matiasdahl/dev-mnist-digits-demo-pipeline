@@ -34,7 +34,7 @@ jobs:
     permissions:
       contents: none  # project repo:s are public, so no permissions are needed
 
-    uses: ./.github/workflows/ci.yml@test-stable_urls
+    uses: ./.github/workflows/ci.yml
 
   build-and-deploy-static-mlflow-site:
     needs: run-all-tests-and-pipeline
@@ -42,4 +42,4 @@ jobs:
     permissions:
       contents: write # grant write access to update repo's static website
 
-    uses: ./.github/workflows/build-and-deploy-static-mlflow-site.yml@test-stable_urls
+    uses: ./.github/workflows/build-and-deploy-static-mlflow-site.yml
