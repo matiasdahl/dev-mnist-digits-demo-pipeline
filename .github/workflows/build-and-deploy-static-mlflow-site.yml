@@ -59,7 +59,7 @@ jobs:
           persist-credentials: true
           path: mlflow-repo
           # replace below with feature branch of `mlflow` repo for testing new
-          # UI features using logs from this repo
+          # UI features using logs from this repo -- dummy edit
           ref: pass-in-artifactRootUri-to-artifact-views
 
       # export static ui data (for easier offline debugging)
