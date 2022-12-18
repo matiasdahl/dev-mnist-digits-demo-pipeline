@@ -1,0 +1,28 @@
+graph LR
+    %% Mermaid input file for drawing task dependencies 
+    %% See https://mermaid-js.github.io/mermaid
+    %%
+    TASK_SPAN_ID_0x511b2b67f9de2940["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/ingest/runs/0x85b62c35e547905f' style='text-decoration: none; color: black;'><b>notebooks/ingest.py (jupytext task) 🔗</b> <br />task.max_nr_retries=15<br />task.num_cpus=1<br />task.timeout_s=10</a>"]
+    TASK_SPAN_ID_0x71403b7a1948cdd3["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/eda/runs/0xf402a4b7ab6f07ff' style='text-decoration: none; color: black;'><b>notebooks/eda.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0x7d09004129cc60ee["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/split-train-test/runs/0x1054e513ae8c87ca' style='text-decoration: none; color: black;'><b>notebooks/split-train-test.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.num_cpus=1<br />task.train_test_ratio=0.7</a>"]
+    TASK_SPAN_ID_0xcee18644c570248a["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/train-model/runs/0x6e854067178b5162' style='text-decoration: none; color: black;'><b>notebooks/train-model.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.nr_train_images=600<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0x25712910be1ff438["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/train-model/runs/0xab93355ffcca00fb' style='text-decoration: none; color: black;'><b>notebooks/train-model.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.nr_train_images=800<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0xfbad6e0f61f7011c["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/train-model/runs/0xc1fbe3e4d992bfd5' style='text-decoration: none; color: black;'><b>notebooks/train-model.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.nr_train_images=1000<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0x9807620a6b115269["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/train-model/runs/0xb5b9732907432043' style='text-decoration: none; color: black;'><b>notebooks/train-model.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.nr_train_images=1200<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0xda0aa4f7a4d640f2["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/benchmark-model/runs/0x34b3a0eebce35cad' style='text-decoration: none; color: black;'><b>notebooks/benchmark-model.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.nr_train_images=800<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0x7ba17a2f05f2020d["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/benchmark-model/runs/0x0e336bb46ec7973d' style='text-decoration: none; color: black;'><b>notebooks/benchmark-model.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.nr_train_images=1000<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0x856c852d649a2a78["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/benchmark-model/runs/0xbcc694a221ddeff9' style='text-decoration: none; color: black;'><b>notebooks/benchmark-model.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.nr_train_images=600<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0x51e057646607a422["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/benchmark-model/runs/0x1622b266a06bdb95' style='text-decoration: none; color: black;'><b>notebooks/benchmark-model.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.nr_train_images=1200<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0xcade0e94944db85c["<a href='https://matiasdahl.github.io/dev-mnist-digits-demo-pipeline/#/experiments/summary/runs/0x50098489ba702e77' style='text-decoration: none; color: black;'><b>notebooks/summary.py (jupytext task) 🔗</b> <br />task.max_nr_retries=1<br />task.num_cpus=1</a>"]
+    TASK_SPAN_ID_0x511b2b67f9de2940 --> TASK_SPAN_ID_0x7d09004129cc60ee
+    TASK_SPAN_ID_0x7d09004129cc60ee --> TASK_SPAN_ID_0x9807620a6b115269
+    TASK_SPAN_ID_0xfbad6e0f61f7011c --> TASK_SPAN_ID_0x7ba17a2f05f2020d
+    TASK_SPAN_ID_0xcee18644c570248a --> TASK_SPAN_ID_0x856c852d649a2a78
+    TASK_SPAN_ID_0x9807620a6b115269 --> TASK_SPAN_ID_0x51e057646607a422
+    TASK_SPAN_ID_0xda0aa4f7a4d640f2 --> TASK_SPAN_ID_0xcade0e94944db85c
+    TASK_SPAN_ID_0x7d09004129cc60ee --> TASK_SPAN_ID_0x25712910be1ff438
+    TASK_SPAN_ID_0x7d09004129cc60ee --> TASK_SPAN_ID_0xcee18644c570248a
+    TASK_SPAN_ID_0x7ba17a2f05f2020d --> TASK_SPAN_ID_0xcade0e94944db85c
+    TASK_SPAN_ID_0x511b2b67f9de2940 --> TASK_SPAN_ID_0x71403b7a1948cdd3
+    TASK_SPAN_ID_0x25712910be1ff438 --> TASK_SPAN_ID_0xda0aa4f7a4d640f2
+    TASK_SPAN_ID_0x7d09004129cc60ee --> TASK_SPAN_ID_0xfbad6e0f61f7011c

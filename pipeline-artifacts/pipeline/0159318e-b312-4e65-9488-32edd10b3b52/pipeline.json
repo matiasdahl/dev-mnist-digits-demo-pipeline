@@ -1,0 +1,62 @@
+{
+  "task_dependencies": [
+    [
+      "0x2817290816596c71",
+      "0xcbb9e6e42404ae7e"
+    ],
+    [
+      "0x0cb7edaeabbb61c5",
+      "0x01296fb44bdffd3c"
+    ],
+    [
+      "0x60f0d36812e44e90",
+      "0x0cb7edaeabbb61c5"
+    ],
+    [
+      "0x60f0d36812e44e90",
+      "0x99bd3543798698e6"
+    ],
+    [
+      "0xa89121666882529a",
+      "0x60f0d36812e44e90"
+    ],
+    [
+      "0x60f0d36812e44e90",
+      "0x2817290816596c71"
+    ],
+    [
+      "0xa89121666882529a",
+      "0xdbdfdc5e4b18cc3d"
+    ],
+    [
+      "0xdff1ab21d764b6de",
+      "0x1cbd653802cc8b1f"
+    ],
+    [
+      "0x99bd3543798698e6",
+      "0x2c2c16ccb1a654ab"
+    ],
+    [
+      "0x60f0d36812e44e90",
+      "0xdff1ab21d764b6de"
+    ]
+  ],
+  "attributes": {
+    "pipeline.data_lake_root": "/pipeline-outputs/data-lake",
+    "pipeline.run_environment": "ci",
+    "pipeline.pipeline_run_id": "0159318e-b312-4e65-9488-32edd10b3b52",
+    "pipeline.github.repository": "matiasdahl/dev-mnist-digits-demo-pipeline",
+    "pipeline.github.workflow": "Run automated tests, pipeline and deploy results to static reporting site",
+    "pipeline.github.runner_name": "Hosted Agent",
+    "pipeline.github.run_id": "3692391613",
+    "pipeline.github.actor": "matiasdahl",
+    "pipeline.github.job": "run-tests-pipeline-and-persist-pipeline-outputs",
+    "pipeline.github.base_ref": "",
+    "pipeline.github.head_ref": "",
+    "pipeline.github.sha": "ace0d01011d5e914f1921450dd5a59c11367b38d",
+    "pipeline.github.ref": "refs/heads/development",
+    "pipeline.github.ref_type": "branch",
+    "pipeline.github.ref_name": "development",
+    "pipeline.github.event_name": "schedule"
+  }
+}

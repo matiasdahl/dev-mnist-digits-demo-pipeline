@@ -1,0 +1,43 @@
+gantt
+    %% Mermaid input file for drawing Gantt chart of runlog runtimes
+    %% See https://mermaid-js.github.io/mermaid/#/gantt
+    %%
+    axisFormat %H:%M
+    %%
+    %% Give timestamps as unix timestamps (ms)
+    dateFormat x
+    %%
+    section notebooks/ingest.py
+    10.02s - FAILED :crit , 1670568055 , 1670568065 
+    4.4s - FAILED :crit , 1670568065 , 1670568070 
+    10.0s - FAILED :crit , 1670568070 , 1670568080 
+    4.39s - FAILED :crit , 1670568080 , 1670568084 
+    4.34s - FAILED :crit , 1670568084 , 1670568088 
+    10.01s - FAILED :crit , 1670568088 , 1670568098 
+    4.33s - FAILED :crit , 1670568098 , 1670568103 
+    4.32s - FAILED :crit , 1670568103 , 1670568107 
+    4.21s - FAILED :crit , 1670568107 , 1670568111 
+    4.36s - FAILED :crit , 1670568111 , 1670568116 
+    5.5s - OK : , 1670568116 , 1670568121 
+    section notebooks/eda.py
+    11.13s - OK : , 1670568121 , 1670568132 
+    section notebooks/split-train-test.py
+    4.73s - OK : , 1670568121 , 1670568126 
+    section notebooks/train-model.py
+    12.2s - OK : , 1670568126 , 1670568138 
+    section notebooks/train-model.py
+    6.9s - OK : , 1670568126 , 1670568133 
+    section notebooks/train-model.py
+    13.23s - OK : , 1670568126 , 1670568139 
+    section notebooks/train-model.py
+    18.19s - OK : , 1670568126 , 1670568144 
+    section notebooks/benchmark-model.py
+    17.7s - OK : , 1670568133 , 1670568151 
+    section notebooks/benchmark-model.py
+    17.53s - OK : , 1670568138 , 1670568156 
+    section notebooks/benchmark-model.py
+    22.63s - OK : , 1670568139 , 1670568162 
+    section notebooks/benchmark-model.py
+    22.04s - OK : , 1670568144 , 1670568166 
+    section notebooks/summary.py
+    5.17s - OK : , 1670568166 , 1670568171 

@@ -1,0 +1,27 @@
+graph LR
+    %% Mermaid input file for drawing task dependencies 
+    %% See https://mermaid-js.github.io/mermaid
+    %%
+    TASK_SPAN_ID_0x172226cefc0a7ef9["notebooks/ingest.py (jupytext task)  <br />task.max_nr_retries=15<br />task.num_cpus=1<br />task.timeout_s=10"]
+    TASK_SPAN_ID_0x3e54832de2406000["notebooks/eda.py (jupytext task)  <br />task.max_nr_retries=1<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0x7d5ab05f4916014b["notebooks/split-train-test.py (jupytext task)  <br />task.max_nr_retries=1<br />task.num_cpus=1<br />task.train_test_ratio=0.7"]
+    TASK_SPAN_ID_0xcfafbb24744fb7c0["notebooks/train-model.py (jupytext task)  <br />task.max_nr_retries=1<br />task.nr_train_images=600<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0xe4f88c6b55ff28a7["notebooks/train-model.py (jupytext task)  <br />task.max_nr_retries=1<br />task.nr_train_images=800<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0x61dd6d7cb476a9fd["notebooks/train-model.py (jupytext task)  <br />task.max_nr_retries=1<br />task.nr_train_images=1000<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0xb57837fed7cd15d6["notebooks/train-model.py (jupytext task)  <br />task.max_nr_retries=1<br />task.nr_train_images=1200<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0xcc7b9af17b45ce17["notebooks/benchmark-model.py (jupytext task)  <br />task.max_nr_retries=1<br />task.nr_train_images=600<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0x24a23e113bbf41d9["notebooks/benchmark-model.py (jupytext task)  <br />task.max_nr_retries=1<br />task.nr_train_images=1000<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0x67c7ffc7b48e80aa["notebooks/benchmark-model.py (jupytext task)  <br />task.max_nr_retries=1<br />task.nr_train_images=800<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0x5ea93b9d20a831cb["notebooks/benchmark-model.py (jupytext task)  <br />task.max_nr_retries=1<br />task.nr_train_images=1200<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0xd4dac8c0822e1aad["notebooks/summary.py (jupytext task)  <br />task.max_nr_retries=1<br />task.num_cpus=1"]
+    TASK_SPAN_ID_0xb57837fed7cd15d6 --> TASK_SPAN_ID_0x5ea93b9d20a831cb
+    TASK_SPAN_ID_0x172226cefc0a7ef9 --> TASK_SPAN_ID_0x3e54832de2406000
+    TASK_SPAN_ID_0x7d5ab05f4916014b --> TASK_SPAN_ID_0xb57837fed7cd15d6
+    TASK_SPAN_ID_0x172226cefc0a7ef9 --> TASK_SPAN_ID_0x7d5ab05f4916014b
+    TASK_SPAN_ID_0x61dd6d7cb476a9fd --> TASK_SPAN_ID_0x24a23e113bbf41d9
+    TASK_SPAN_ID_0x7d5ab05f4916014b --> TASK_SPAN_ID_0xe4f88c6b55ff28a7
+    TASK_SPAN_ID_0x7d5ab05f4916014b --> TASK_SPAN_ID_0x61dd6d7cb476a9fd
+    TASK_SPAN_ID_0x7d5ab05f4916014b --> TASK_SPAN_ID_0xcfafbb24744fb7c0
+    TASK_SPAN_ID_0xcc7b9af17b45ce17 --> TASK_SPAN_ID_0xd4dac8c0822e1aad
+    TASK_SPAN_ID_0xcfafbb24744fb7c0 --> TASK_SPAN_ID_0xcc7b9af17b45ce17
+    TASK_SPAN_ID_0xe4f88c6b55ff28a7 --> TASK_SPAN_ID_0x67c7ffc7b48e80aa
